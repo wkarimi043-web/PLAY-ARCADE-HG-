@@ -1,24 +1,24 @@
-import { Game } from '../types';
-import Snake from './Snake';
-import TicTacToe from './TicTacToe';
-import MemoryMatch from './MemoryMatch';
-import Clicker from './Clicker';
-import WhackAMole from './WhackAMole';
-import Quiz from './Quiz';
-import MathPuzzle from './MathPuzzle';
-import ColorMatch from './ColorMatch';
-import WordGuess from './WordGuess';
-import Sudoku from './Sudoku';
-import BrickBreaker from './BrickBreaker';
-import CatchObjects from './CatchObjects';
-import Game2048 from './Game2048';
-import BlockPuzzle from './BlockPuzzle';
-import BalloonPop from './BalloonPop';
-import Maze from './Maze';
-import EndlessRunner from './EndlessRunner';
-import FlappyBird from './FlappyBird';
-import BubbleShooter from './BubbleShooter';
-import SimpleRacing from './SimpleRacing';
+import { Game } from '../types.ts';
+import Snake from './Snake.tsx';
+import TicTacToe from './TicTacToe.tsx';
+import MemoryMatch from './MemoryMatch.tsx';
+import Clicker from './Clicker.tsx';
+import WhackAMole from './WhackAMole.tsx';
+import Quiz from './Quiz.tsx';
+import MathPuzzle from './MathPuzzle.tsx';
+import ColorMatch from './ColorMatch.tsx';
+import WordGuess from './WordGuess.tsx';
+import Sudoku from './Sudoku.tsx';
+import BrickBreaker from './BrickBreaker.tsx';
+import CatchObjects from './CatchObjects.tsx';
+import Game2048 from './Game2048.tsx';
+import BlockPuzzle from './BlockPuzzle.tsx';
+import BalloonPop from './BalloonPop.tsx';
+import Maze from './Maze.tsx';
+import EndlessRunner from './EndlessRunner.tsx';
+import FlappyBird from './FlappyBird.tsx';
+import BubbleShooter from './BubbleShooter.tsx';
+import SimpleRacing from './SimpleRacing.tsx';
 
 export const GAMES_REGISTRY: Game[] = [
     {

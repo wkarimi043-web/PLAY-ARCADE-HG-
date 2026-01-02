@@ -1,14 +1,13 @@
-
 import React, { useState, useMemo, useEffect } from 'react';
-import { Game } from './types';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import GameList from './components/GameList';
-import GameDisplay from './components/GameDisplay';
-import ContactForm from './components/ContactForm';
-import LegalPage from './components/LegalPage';
-import SearchBar from './components/SearchBar';
-import { GAMES_REGISTRY } from './games/Registry';
+import { Game } from './types.ts';
+import Header from './components/Header.tsx';
+import Footer from './components/Footer.tsx';
+import GameList from './components/GameList.tsx';
+import GameDisplay from './components/GameDisplay.tsx';
+import ContactForm from './components/ContactForm.tsx';
+import LegalPage from './components/LegalPage.tsx';
+import SearchBar from './components/SearchBar.tsx';
+import { GAMES_REGISTRY } from './games/Registry.ts';
 
 type ViewType = 'home' | 'games' | 'about' | 'contact' | 'privacy' | 'terms' | 'cookies';
 

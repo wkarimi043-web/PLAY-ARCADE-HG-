@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { CONTACT_INFO } from '../constants';
+import { CONTACT_INFO } from '../constants.tsx';
 
 const ContactForm: React.FC = () => {
     const [status, setStatus] = useState<null | 'success' | 'error'>(null);

@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { CONTACT_INFO } from '../constants';
+import { CONTACT_INFO } from '../constants.tsx';
 
 interface FooterProps {
     onNavigate: (view: any) => void;

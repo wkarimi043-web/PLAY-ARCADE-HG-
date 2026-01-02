@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Game } from '../types';
+import { Game } from '../types.ts';
 
 interface GameListProps {
     games: Game[];

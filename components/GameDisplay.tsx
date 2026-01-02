@@ -1,6 +1,5 @@
-
 import React, { useState, useEffect } from 'react';
-import { Game } from '../types';
+import { Game } from '../types.ts';
 
 interface GameDisplayProps {
     game: Game;
